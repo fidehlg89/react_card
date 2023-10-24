@@ -1,0 +1,56 @@
+/* fonts.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  border-radius: 16px;
+  height: 100% !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+  background-color: #193e6e;
+  border-radius: 16px 16px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+p {
+  padding: 0 32px 32px;
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: white;
+}
+
+.card-title {
+  text-align: center;
+}
