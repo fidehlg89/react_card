@@ -8,7 +8,7 @@ function App() {
     <>
       <header>
         <h1>Card Test</h1>
-        <h2>Testing card components</h2>
+        <h2>Testing card components style</h2>
       </header>
       <main>
         <div class="card">
